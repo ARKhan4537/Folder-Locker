@@ -1,0 +1,939 @@
+cls
+:123
+::System Kernal CoreShell Level 1
+@echo off
+mode con: cols=70 lines=40
+md %systemdrive%\security
+attrib +h +s %systemdrive%\security
+cls
+md "%systemdrive%\Program Files\folder locker"
+attrib +h +s %systemdrive%\program Files\folder Locker
+cls
+if Exist Pass goto writ
+echo @echo off>>%systemdrive%\security\his.bat
+echo title History >>%systemdrive%\security\his.bat
+echo color a9>>%systemdrive%\security\his.bat
+echo findstr /v "werwe3324342@#$@#$" %systemdrive%\security\history.exe >>%systemdrive%\security\his.bat
+echo pause >>%systemdrive%\security\his.bat
+echo exit >>%systemdrive%\security\his.bat
+echo.
+echo.
+echo.
+echo @echo off>>%systemdrive%\security\his1.bat
+echo title Wrong Password History >>%systemdrive%\security\his1.bat
+echo color a9>>%systemdrive%\security\his1.bat
+echo findstr /v "werwe3324342@#$@#$" %systemdrive%\security\history1.exe >>%systemdrive%\security\his1.bat
+echo pause >>%systemdrive%\security\his1.bat
+echo exit >>%systemdrive%\security\his1.bat
+echo createobject("sapi.spvoice").speak"Welcome %username% In Advance Security Please Enter AR Product Key For Activation ">%systemdrive%\security\spe.vbs
+start %systemdrive%\security\"spe.vbs"
+set /p ggg=Enter Product Password:
+if %ggg%==orochiking goto tgh
+echo.
+echo.
+echo.
+echo ====================
+echo Product Key Is wrong
+echo ====================
+echo.
+pause
+cls
+goto 123
+exit
+:tgh
+md pass
+attrib +h +s pass
+:writ
+:upper
+cls
+title             Loading....wait...please........
+echo.
+echo.
+echo.
+mode con: cols=80 lines=40
+echo Last Time Folder Was Open At..>>%systemdrive%\security\history.exe
+echo. >>%systemdrive%\security\history.exe
+echo Date::  %date%>>%systemdrive%\security\history.exe
+echo Time::  %time%>>%systemdrive%\security\history.exe
+echo. >>%systemdrive%\security\history.exe
+echo.>>%systemdrive%\security\history1.exe
+echo.
+echo.
+echo.
+echo createobject("sapi.spvoice").speak"Welcome %username% ">%systemdrive%\security\spe.vbs
+start %systemdrive%\security\"spe.vbs"
+attrib -h -s E:\ar.exe 
+cls
+attrib -h -s F:\ar.exe 
+cls
+attrib -h -s G:\ar.exe 
+cls
+attrib -h -s H:\ar.exe 
+cls
+attrib -h -s D:\ar.exe 
+cls
+move "E:\AR.exe" "%systemdrive%\Program Files\folder locker"
+cls
+move "F:\AR.exe" "%systemdrive%\Program Files\folder locker"
+cls
+move "G:\AR.exe" "%systemdrive%\Program Files\folder locker"
+cls
+move "H:\AR.exe" "%systemdrive%\Program Files\folder locker"
+cls
+move "D:\AR.exe" "%systemdrive%\Program Files\folder locker"
+cls
+attrib +h +s "%systemdrive%\Program Files\folder locker\ar.exe"
+cls
+:shadow
+mode con: cols=80 lines=40
+cls
+echo.
+title Advance folder locker By AR Khan...    (D,E,F,G,H)
+color a9
+md click
+attrib +h +s click
+cls
+echo.
+echo.             ============================================
+echo.                       Folder Locker v4.4                     
+echo.
+echo.                 This Product License to Mr.AR Khan   
+echo.
+echo.                       License  Type    payaied               
+echo.                                                    
+echo.             ============================================
+echo.
+echo.
+echo.
+echo ===============================
+echo press 1 For History Mode
+echo.
+echo press 2 For Folder Locker Mode
+echo.
+echo press 3 For Exit
+echo.
+echo press 4 Lock Full Computer (buy)
+echo.
+echo press 5 For Default Password (buy)
+echo.
+echo press 6 See Product License
+echo.
+echo press 7 For Clear History
+echo.
+echo Press 8 For Full History
+echo ===============================
+echo.                                      
+echo.
+set /p qwer=Choose Your Option:
+if %qwer%==1 goto erty
+if %qwer%==2 goto up
+if %qwer%==3 goto Exit1
+if %qwer%==4 goto locksys
+if %qwer%==5 goto accessmn
+if %qwer%==6 goto history234
+if %qwer%==7 goto clearhistory
+if %qwer%==8 goto fullhis 
+echo.
+echo.
+echo.
+echo ============================
+echo.
+echo you Choose Illegal Option..!
+echo.
+echo ============================
+echo.
+pause
+cls
+goto shadow
+exit
+:exit1
+exit
+:erty
+cls
+set "psCommand=powershell -Command "$pword = read-host 'Enter Your Access Password' -AsSecureString ; ^
+    $BSTR=[System.Runtime.InteropServices.Marshal]::SecureStringToBSTR($pword); ^
+      [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
+        for /f "usebackq delims=" %%p in (`%psCommand%`) do set  num5=%%p
+)
+if %num5%==orochi goto eruo
+echo.
+echo.
+echo -------------------
+echo you enter wrong key
+echo -------------------
+pause
+cls
+goto erty
+:eruo
+cls
+mode con: cols=150 lines=50
+findstr /v "werwe3324342@#$@#$" %systemdrive%\security\history.exe
+echo.
+echo.
+echo.
+findstr /v "werwe3324342@#$@#$" %systemdrive%\security\history1.exe
+echo.
+echo.
+echo.
+echo.
+echo.
+pause
+cls
+goto shadow
+exit
+:up
+color 9a 
+cls
+if EXIST "ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"  goto unlock
+if NOT EXIST files goto mdlocker
+:start
+color 9a
+echo.
+echo Password Is case sensitive......!
+echo.
+set /p num=enter your password to lock this folder:
+echo.
+set /p num2=confirm your password:
+
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num
+if !Test! EQU 0 (
+  if !num! EQU 0 (
+    echo ========================================================
+    echo First Write Character And Then number ::Example super123
+	echo ====================================================
+  ) else (
+    goto awais
+  )
+) else (
+  echo ========================================================
+  echo First Write Character And Then number ::Example super123
+  echo ========================================================
+)
+pause
+cls
+goto start
+
+
+:awais
+if %num%==%num2% goto lock
+echo -----------------------------------------
+echo password did not match please write again
+echo -----------------------------------------
+echo.
+echo.
+pause
+cls
+goto start
+:lock
+setlocal enabledelayedexpansion
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num=!num:%%C=%%N!"
+)
+)
+)
+echo !num!>>"%systemdrive%\Program Files\folder locker\AR.exe"
+echo.
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+cls
+:startlevel
+cls
+echo ===========================
+echo 1 For High Level Security
+echo.
+echo 2 for Normal Level Security
+echo ===========================
+echo.
+echo.
+echo.
+set /p level=Enter your Optition:
+if %level%==1 goto highL
+if %level%==2 goto NormalL
+echo.
+echo.
+echo.
+echo ===========================
+echo You Choose Illegal Optition
+echo ===========================
+echo.
+pause
+cls
+goto startlevel
+exit
+:highL 
+ren files "ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s E:\"ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s D:\"ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s F:\"ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s G:\"ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s H:\"ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+attrib +h +s "%systemdrive%\users\%username%\Desktop\ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+cacls "ARlock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" /e /p everyone:n
+echo.
+echo.
+echo.
+echo.
+cls
+goto msgarkhan
+exit
+:normalL
+cls
+echo.
+ren files "ARLOCK.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+cacls "ARlock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" /e /p everyone:n
+goto msgarkhan
+Exit
+
+:msgarkhan
+cls
+echo.
+echo.
+echo.
+echo.
+echo ------------------------
+echo Folder Lock Successfuly!
+echo ------------------------
+echo.
+echo createobject("sapi.spvoice").speak"your files are lock successfully">%systemdrive%\security\spe.vbs
+start %systemdrive%\security\"spe.vbs"
+echo.
+echo.
+echo.
+pause
+exit
+:mdlocker
+md files
+echo.
+echo --------------------------------
+echo files folder successfuly created
+echo --------------------------------
+echo.
+echo                         save your Data InTo Files Folder
+pause
+cls
+goto start
+:unlock
+if exist %systemdrive%\"program Files"\"folder locker"\"AR.exe" goto er
+echo ------------------------------
+echo Erorr! file not exist in drive
+echo ------------------------------
+echo.
+echo.
+pause
+exit
+:er
+if  exist %systemdrive%\"users"\"%username%"\"Desktop"\"click" goto d12
+if  exist D:\"click" goto enable 
+if  exist E:\"click" goto enable1
+if  exist F:\"click" goto enable2
+if  exist G:\"click" goto enable3
+if  exist H:\"click" goto enable4
+cls
+echo ---------------------------------------
+echo  Error.! Click Directory Is not Created
+echo ---------------------------------------
+pause
+cls
+goto up
+:enable
+cls
+attrib -h -s "%systemdrive%\Program Files\folder locker\AR.exe"
+move "%systemdrive%\Program Files\folder Locker\AR.exe" D:\
+cls
+attrib +h +s D:\AR.exe
+cls
+if exist D:\ar.exe goto sha1
+echo.
+echo.
+echo.
+echo =============================
+echo AR File Not Exist In D: Drive
+echo =============================
+echo.
+pause
+exit
+:sha1
+set /p num3=enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter Wrong Password
+	echo ========================
+  ) else (
+    goto vb001
+  )
+) else (
+  echo =========================
+  echo You Enter Wrong Password
+  echo =========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+pause
+cls
+goto sha1
+exit
+:vb001
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+if !num3!==%qwe% goto correct
+echo.
+echo.
+echo.
+echo.------------------------
+echo you enter wrong password
+echo.------------------------
+echo.
+echo.
+attrib -h -s D:\AR.exe
+echo.
+move AR.exe "%systemdrive%\Program Files\folder locker"
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+pause
+cls
+goto enable
+
+
+:enable1
+attrib -h -s "%systemdrive%\Program Files\folder locker\AR.exe"
+move "%systemdrive%\Program Files\folder Locker\AR.exe" E:\
+cls
+attrib +h +s E:\AR.exe
+cls
+if exist E:\ar.exe goto sha2
+echo.
+echo.
+echo.
+echo.
+echo ============================
+echo AR File Not EXIST In Drive E
+echo ============================
+pause
+exit
+:sha2
+cls
+set /p num3=Enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter Wrong Password
+	echo ========================
+  ) else (
+    goto vb002
+  )
+) else (
+  echo ========================
+  echo You Enter Wrong Password
+  echo ========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+
+pause
+cls
+goto sha2
+exit
+:vb002
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+
+
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+if !num3!==%qwe% goto correct
+echo.-------------------------
+echo your enter wrong password
+echo.-------------------------
+echo.
+echo.
+attrib -h -s E:\"AR.exe"
+echo.
+move AR.exe "%systemdrive%\Program Files\folder locker"
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+pause
+cls
+goto enable1
+
+
+
+
+
+:enable2
+attrib -h -s "%systemdrive%\Program Files\folder locker\AR.exe"
+move "%systemdrive%\Program Files\folder Locker\AR.exe" F:\
+cls
+attrib +h +s F:\AR.exe
+cls 
+if exist F:\ar.exe goto sha3
+echo.
+echo.
+echo.
+echo.
+echo ============================
+echo AR File Not EXIST In Drive F
+echo ============================
+pause
+exit
+:sha3
+cls
+set /p num3=enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter wrong password
+	echo ========================
+  ) else (
+    goto vb003
+  )
+) else (
+  echo ========================
+  echo You Enter Wrong Password
+  echo ========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+pause
+cls
+goto sha3
+exit
+:vb003
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+
+
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+if !num3!==%qwe% goto correct
+echo.-------------------------
+echo your enter wrong password
+echo.-------------------------
+echo.
+echo.
+attrib -h -s F:\"AR.exe"
+echo.
+move AR.exe "%systemdrive%\Program Files\folder locker"
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+pause
+cls
+goto enable2
+
+:enable3
+attrib -h -s "%systemdrive%\Program Files\folder locker\AR.exe"
+move "%systemdrive%\Program Files\folder Locker\AR.exe" G:\
+cls
+attrib +h +s G:\AR.exe
+cls
+cls 
+if exist G:\ar.exe goto sha4
+echo.
+echo.
+echo.
+echo.
+echo ============================
+echo AR File Not EXIST In Drive G
+echo ============================
+pause
+exit
+:sha4
+cls
+set /p num3=Enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter Wrong Password
+	echo ========================
+  ) else (
+    goto vb004
+  )
+) else (
+  echo ========================
+  echo You Enter Wrong Password
+  echo ========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+pause
+exit
+:vb004
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+if !num3!==%qwe% goto correct
+echo.
+echo.
+echo.
+echo.-------------------------
+echo your enter wrong password
+echo.-------------------------
+echo.
+echo.
+attrib -h -s G:\"AR.exe"
+echo.
+move AR.exe "%systemdrive%\Program Files\folder locker"
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+pause
+cls
+goto enable3
+
+:enable4
+attrib -h -s "%systemdrive%\Program Files\folder locker\AR.exe"
+move "%systemdrive%\Program Files\folder Locker\AR.exe" H:\
+cls
+attrib +h +s H:\"AR.exe"
+cls
+cls 
+if exist H:\ar.exe goto sha5
+echo.
+echo.
+echo.
+echo.
+echo ============================
+echo AR File Not EXIST In Drive H
+echo ============================
+pause
+exit
+:sha5
+cls
+set /p num3=Enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter Wrong Password
+	echo ========================
+  ) else (
+    goto vb005
+  )
+) else (
+  echo ========================
+  echo You Enter Wrong Password
+  echo ========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+pause
+exit
+:vb005
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+if !num3!==%qwe% goto correct
+echo.-------------------------
+echo your enter wrong password
+echo.-------------------------
+echo.
+echo.
+attrib -h -s H:\AR.exe
+echo.
+move AR.exe "%systemdrive%\Program Files\folder locker"
+attrib +h +s "%systemdrive%\Program Files\folder locker\AR.exe"
+pause
+cls
+goto enable4
+:d12
+cls
+cd "%systemdrive%\Program Files\folder Locker"
+cls
+set /p num3=enter password to unloack your folder:
+setlocal enableextensions enabledelayedexpansion 
+set /a Test=num3
+if !Test! EQU 0 (
+  if !num3! EQU 0 (
+    echo ========================
+    echo You Enter Wrong Password
+	echo ========================
+  ) else (
+    goto vb006
+  )
+) else (
+  echo ========================
+  echo You Enter Wrong Password
+  echo ========================
+)
+echo Wrong password Enter:: %num3%>>%systemdrive%\security\history1.exe
+echo.>>%systemdrive%\security\history1.exe
+pause
+cls
+goto d12
+exit
+:vb006
+set chars=0123456789ponmrqlktsjivuhgxwfezydcba
+
+for /L %%N in (10 1 36) do (
+
+for /F %%C in ("!chars:~%%N,1!") do (
+set /a math=%%N*122
+for /f %%f in ("!math!") do (
+set  "num3=!num3:%%C=%%N!"
+)
+)
+)
+for /f "Delims=" %%a in (AR.exe) do (
+set qwe=%%a
+)
+echo.
+cd %systemdrive%\users\%username%\"Desktop"
+if !num3!==%qwe% goto correct
+echo.-------------------------
+echo your enter wrong password
+echo.-------------------------
+echo.
+echo.
+echo.
+pause
+cls
+goto er
+:correct
+cls
+attrib -h -s D:\"AR.exe" 
+cls
+attrib -h -s E:\"AR.exe" 
+cls
+attrib -h -s F:\"AR.exe" 
+cls
+attrib -h -s G:\"AR.exe" 
+cls
+attrib -h -s H:\"AR.exe" 
+cls
+echo.
+cacls "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" /e /p everyone:f
+attrib -h -s "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+ren "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" files
+echo.
+cls
+if exist files goto qwy
+echo.----------------------------------------------------------------
+echo File Unlock Error..! Contact To AR Khan or Used Default Password
+echo.---------------------------------------------------------------
+echo.
+echo.
+echo.
+pause
+move AR.exe "%systemdrive%\Program Files\folder Locker"
+cls
+goto up
+:qwy
+del "AR.exe"
+rd "click"
+cls
+echo.---------------------------------
+echo your files are successfuly unlock
+echo.---------------------------------
+echo createobject("sapi.spvoice").speak"your files are unlock successfully">%systemdrive%\security\spe.vbs
+start %systemdrive%\security\"spe.vbs"
+echo.
+echo.
+echo.
+echo.
+pause
+exit
+:locksys
+cls
+echo.
+echo Warning this mode will lock your entir computer
+echo.
+echo To unlock please restart your computer
+echo. 
+set /p num001=Enter your password:
+if %num001%==shadowarorochi goto yes12
+echo.
+echo =================
+echo password is wrong
+echo =================
+echo.
+echo.
+echo.
+pause
+cls
+goto locksys
+exit
+:yes12
+taskkill /f /t /im "explorer.exe"
+exit
+:accessmn
+cls
+echo    Only for emergency
+echo.
+echo Default Access mode
+echo.
+set /p input1=Enter your Default Password:
+if %input1%==shadow goto ok123
+echo.
+echo.
+echo.
+echo.
+echo =================
+echo password is wrong
+echo =================
+echo.
+pause
+cls
+goto accessmn
+exit
+:ok123
+cls
+cacls "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" /e /p everyone:f
+attrib -h -s "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}"
+ren "ARLock.{2559a1f2-21d7-11d4-bdaf-00c04f60b9f0}" files
+cls
+echo.
+echo.
+echo.
+echo =========================
+echo files unlock successfully
+echo =========================
+echo.
+echo.
+echo.
+pause
+exit
+:history234
+cls
+echo.
+echo.
+echo =========================================
+echo  Product Name::      Advance Folder Locker
+echo.
+echo  product Client::    
+echo.
+echo  product buying::    50$
+echo.
+echo  Buying Date 5/16/2016
+echo.
+echo  License Type ::     Forever
+echo.
+echo  copyRight Ten AR soft's (c)
+echo =========================================
+echo.
+pause 
+cls
+goto 
+exit
+:clearhistory
+cls   
+echo.
+echo History Remove Mode...!
+set /p his=Enter your Password:
+if %his%==orochi goto cleardata
+echo.
+echo.
+echo.
+echo ========================
+echo You Enter Wrong Password
+echo ========================
+echo.
+pause
+cls
+goto clearhistory
+exit
+
+:cleardata
+cls
+del "%systemdrive%\security\history.exe"
+del "%systemdrive%\security\history1.exe"
+cls
+echo ==================
+echo History Deleted..!
+echo ==================
+echo.
+echo.
+pause
+exit
+
+
+
+:fullhis
+cls
+set /p ar=Enter your Password:
+if %ar%==shadowpow goto spw
+echo.
+echo.
+echo.
+echo =========================
+echo You Enter wrong Password:
+echo =========================
+echo.
+echo.
+pause
+cls
+goto fullhis
+exit
+:spw
+start %systemdrive%\security\his.bat
+start %systemdrive%\security\his1.bat
+echo.
+echo.
+echo.
+goto shadow
+exit
