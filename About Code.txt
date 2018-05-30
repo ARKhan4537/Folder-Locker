@@ -8,7 +8,7 @@ Features of 20% Stucher Application .
 2) Direct Runable without Installation.
 3) History Mode When Folder Lock,History mode include Date and time.
 4) Powerfull Security With Kernal File Protection With Ecryption.
-5) Encryption Password Securiy Include Desktop or Drive Maping.
+5) Encryption Password Security Include Desktop or Drive Maping.
 
 
 //Programmer: AR kHAN  
