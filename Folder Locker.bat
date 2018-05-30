@@ -15,7 +15,7 @@ md "%systemdrive%\Program Files\folder locker"
 attrib +h +s %systemdrive%\program Files\folder Locker
 cls
 if Exist Pass goto writ
-:: Creating File Programmaticaly in C: Location For Searching Stirngs For Console
+:: Creating File Programmaticaly in C: Location For Searching Strings For Console
 :: Start File
 echo @echo off>>%systemdrive%\security\his.bat
 echo title History >>%systemdrive%\security\his.bat
