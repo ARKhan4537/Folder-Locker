@@ -862,19 +862,11 @@ exit
 cls
 echo.
 echo.
-echo =========================================
-echo  Product Name::      Advance Folder Locker
+echo ====================================
+echo  Product Name::Advance Folder Locker
 echo.
-echo  product Client::    
-echo.
-echo  product buying::    50$
-echo.
-echo  Buying Date 5/16/2016
-echo.
-echo  License Type ::     Forever
-echo.
-echo  copyRight Ten AR soft's (c)
-echo =========================================
+echo  Programmer::  ARxshadow    
+echo ====================================
 echo.
 pause 
 cls
