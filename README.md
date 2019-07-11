@@ -3,9 +3,7 @@
 
 If You are a Student , or you want to learn about windows Batchfile/Powershell Scripting ,Then this Project will help you For Grow.
 
-Remember Mostly Windows Applications Depended on Windows Resources ,So if you want to learn how to create Windows application then you 
-
-will Need to study  Operating system Resources.
+Remember Mostly Windows Applications Depended on Windows Resources ,So if you want to learn how to create Windows application then you will Need to study Operating system Resources.
 
 Batch file/Powershell Allow you to learn Windows Resources.
 
@@ -26,3 +24,7 @@ Self Design Algorithms in windows Batch File.
 https://www.battoexeconverter.com/
 
 This Is Official site of Batchtoexe Converter Compiler, IF you Want to Make .exe of your Batch Code Then it will Helps to to make your Bathc file into .exe   
+
+From::ARxshadow Yes its my Code Name. Every Programmer has its unique name that, He  Coded in file.
+
+Happy Programming..!
