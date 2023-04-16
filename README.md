@@ -25,6 +25,5 @@ https://www.battoexeconverter.com/
 
 This Is Official site of Batchtoexe Converter Compiler, IF you Want to Make .exe of your Batch Code Then it will Helps to to make your Bathc file into .exe   
 
-From::ARxshadow Yes its my Code Name. Every Programmer has its unique name that, He  Coded in file.
 
 Happy Programming..!
