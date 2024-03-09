@@ -4,11 +4,10 @@ Batchfile Programming :80%
 
 Features of 20% Stucher Application .
 
-1) Application is a Folder Locker 20% Stucher of total Program System Securtiy or System Care.
-2) Direct Runable without Installation.
-3) History Mode When Folder Lock,History mode include Date and time.
-4) Powerfull Security With Kernal File Protection With Ecryption.
-5) Encryption Password Security Include Desktop or Drive Maping.
+1) Direct Runable without Installation.
+2) History Mode When Folder Lock,History mode include Date and time.
+3) Powerfull Security With Kernal File Protection With Ecryption.
+4) Encryption Password Security Include Desktop or Drive Maping.
 
 
 //Programmer: AR kHAN  
