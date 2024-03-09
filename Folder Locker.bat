@@ -52,7 +52,7 @@ set "psCommand=powershell -Command "$pword = read-host 'Enter Your Product Key' 
       [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
         for /f "usebackq delims=" %%p in (`%psCommand%`) do set  ggg=%%p
 )
-if %ggg%==king goto tgh
+if %ggg%==Supphire goto tgh
 echo.
 echo.
 echo.
