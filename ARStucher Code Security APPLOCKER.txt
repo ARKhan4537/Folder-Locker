@@ -1,6 +1,6 @@
 cls
 :123
-::System Kernal CoreShell Level 1
+::structure code Folder Locker
 @echo off
 mode con: cols=70 lines=40
 md %systemdrive%\security
@@ -28,7 +28,7 @@ echo exit >>%systemdrive%\security\his1.bat
 echo createobject("sapi.spvoice").speak"Welcome %username% In Advance Security Please Enter AR Product Key For Activation ">%systemdrive%\security\spe.vbs
 start %systemdrive%\security\"spe.vbs"
 set /p ggg=Enter Product Password:
-if %ggg%==orochiking goto tgh
+if %ggg%==king goto tgh
 echo.
 echo.
 echo.
@@ -99,7 +99,7 @@ echo.                       Folder Locker v4.4
 echo.
 echo.                 This Product License to Mr.AR Khan   
 echo.
-echo.                       License  Type    payaied               
+echo.                       License  Type    payied               
 echo.                                                    
 echo.             ============================================
 echo.
@@ -155,7 +155,7 @@ set "psCommand=powershell -Command "$pword = read-host 'Enter Your Access Passwo
       [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
         for /f "usebackq delims=" %%p in (`%psCommand%`) do set  num5=%%p
 )
-if %num5%==orochi goto eruo
+if %num5%==king1 goto eruo
 echo.
 echo.
 echo -------------------
@@ -806,7 +806,7 @@ echo.
 echo To unlock please restart your computer
 echo. 
 set /p num001=Enter your password:
-if %num001%==shadowarorochi goto yes12
+if %num001%==Sapphire goto yes12
 echo.
 echo =================
 echo password is wrong
@@ -877,7 +877,7 @@ cls
 echo.
 echo History Remove Mode...!
 set /p his=Enter your Password:
-if %his%==orochi goto cleardata
+if %his%==shadow goto cleardata
 echo.
 echo.
 echo.
