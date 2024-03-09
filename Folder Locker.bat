@@ -1,7 +1,6 @@
 cls
 :123
 :: Logic is Difficult in Core Shell
-:: My Final Year Project in Gc
 :: .vbs  ( vb Scripiting )
 :: .bat  ( Windows Batch File ) 
 :: .ps1  ( Powershell )
@@ -53,7 +52,7 @@ set "psCommand=powershell -Command "$pword = read-host 'Enter Your Product Key' 
       [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
         for /f "usebackq delims=" %%p in (`%psCommand%`) do set  ggg=%%p
 )
-if %ggg%==orochiking goto tgh
+if %ggg%==king goto tgh
 echo.
 echo.
 echo.
@@ -182,7 +181,7 @@ set "psCommand=powershell -Command "$pword = read-host 'Enter Your Access Passwo
       [System.Runtime.InteropServices.Marshal]::PtrToStringAuto($BSTR)""
         for /f "usebackq delims=" %%p in (`%psCommand%`) do set  num5=%%p
 )
-if %num5%==orochi goto eruo
+if %num5%==Supphire goto eruo
 echo.
 echo.
 echo -------------------
@@ -933,7 +932,7 @@ cls
 echo.
 echo History Remove Mode...!
 set /p his=Enter your Password:
-if %his%==orochi goto cleardata
+if %his%==king goto cleardata
 echo.
 echo.
 echo.
